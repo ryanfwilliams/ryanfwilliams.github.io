@@ -1,0 +1,170 @@
+
+@import url('https://use.typekit.net/ydb7por.css');
+@import url('https://use.typekit.net/ydb7por.css');
+
+
+* {
+background-color:#1a1a1a;
+color:red;
+font-family: aesthet-nova, serif;
+font-style: normal;
+
+}
+
+
+body{
+height:100%;
+margin-left:0px;
+margin-right:0px;
+min-height: 100%;
+padding-bottom:200px;
+
+
+}
+h2{
+font-family: abolition, sans-serif;
+
+font-style: normal;
+    color:black;
+ font-size: 50px;
+    
+}
+
+
+h1{
+background-color:black;
+color:red;
+display:inline;
+padding:0px 100px 0px 100px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+a {
+    color:red;;
+    text-transform: uppercase;
+    background-color:black;
+    padding:0px 20px 0px 20px;
+    margin: 20px 20px 20px 20px 
+
+        
+}
+
+header {
+    background-color:red;
+    text-align:center;
+    padding: 15px 20px 20px 20px;
+     margin-left:auto;
+    margin-right:auto;
+    
+}
+nav{
+    background-color:red;
+     margin-left:auto;
+    margin-right:auto;
+    
+}
+
+hr{
+    display:block;
+    padding: 5px 0px 0px 0px;
+    margin: 20px -20px 0px -20px;
+    background-color:darkred;
+    border-color:black;
+  
+}
+
+footer{
+  max-height:70px;
+    background-color:red;
+    text-align:center;
+    bottom: 0px;
+    position: fixed;
+    width:100%;
+    
+   
+    
+    
+}
+
+footer h2{
+    color:black;
+    background-color:red;
+    display:inline-block;
+    font-size:70px;
+    margin-top:0%;
+    
+    
+    
+    
+    
+}
+
+p {
+      text-transform: uppercase;
+      text-shadow: 1px 2px 0px darkred;
+      text-align:justify;
+    
+    
+}
+
+
+article{
+    display:inline;
+    float:left;
+    width:700px;
+    margin-bottom:100px;
+ 
+}
+img{
+    width:600px;
+}
+
+#my-div
+{
+    filter: contrast(1000%);
+    width    : 120px;
+    height   : 65px;
+    overflow : hidden;
+    position : relative;
+    display:inline-block;
+    margin-right:10px;
+    
+}
+
+#my-iframe
+{
+    position : absolute;
+    top      : -430px;
+    left     : -300px;
+    width    : 1280px;
+    height   : 1200px;
+    
+}
+
+.invert{
+    filter:drop-shadow(0px 0px 70px red);
+    float:right;
+    margin-right: 150px;
+    margin-top:150px;
+    height:500px;
+    width:300px
+     
+}
+
+.shadow {
+    text-shadow: 1px 2px 0px red;
+}
+
+
+@media only screen and (max-width: 1000px) {
+   footer{
+       max-height:220px;
+  }
+    
+ article{
+    margin-bottom:220px;
+ 
+}
+}
