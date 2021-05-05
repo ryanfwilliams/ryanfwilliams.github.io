@@ -4,7 +4,7 @@
 
 
 * {
-background-color:whitesmoke;
+background-color:white;
 color:#ee212e;
 font-family: aesthet-nova, serif;
 font-style: normal;
@@ -27,13 +27,17 @@ min-height: 100%;
 
 h1{
     font-family: abolition, sans-serif;
-background-color:black;
-color:whitesmoke;
-display:inline;
-padding:0px 100px 0px 100px;
-margin-left:auto;
+background-color:#e6ddd2;
+color:maroon;
+    position:absolute;
+text-shadow: 2px 2px 0px black;
+
+
+margin-left:10px;
 margin-right:auto;
-font-size:50px;
+margin-top:29px;
+font-size:60px;
+letter-spacing:10px;
 
     
 }
@@ -42,10 +46,15 @@ font-size:50px;
 
 h2{
 font-family: abolition, sans-serif;
-
+margin-top: 0%;
+margin-bottom:0%;
+padding-bottom: 0%;
+    font-size:40px;
+    padding-top: 0%;
 font-style: normal;
-    color:black;
- font-size: 50px;
+    color:maroon;
+    letter-spacing: 1.5px;
+
     
 }
 
@@ -55,6 +64,8 @@ h3 {
     background:black;
     margin-top:0%;
     padding-top:0%;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
     text-align:center;
     
 }
@@ -68,6 +79,30 @@ h4{
     margin-bottom:0%;
     margin-top:0%;
 }
+
+h6{
+        font-size:20px;
+    color:black;
+  width:100%;
+    margin-top:0%;
+    padding-top:0%;
+    margin-bottom: 1%;
+    padding-bottom: 0%;
+    text-align:left;
+    
+}
+
+
+.emphasis{
+    text-decoration:underline;
+    color:maroon;
+}
+
+.citation{
+    font-size:10px;
+    margin-top:0%;
+    margin-bottom:0%;
+}
 a{
     font-family: aesthet-nova, serif;
     color:darkred;
@@ -75,19 +110,23 @@ a{
 }
 
 header a {
-    color:whitesmoke;;
+    color:maroon;
+   
+    margin-left:0%;
     font-family: abolition, sans-serif;
     text-transform: uppercase;
-    background-color:black;
-    padding:0px 20px 0px 20px;
-    margin: 20px 20px 20px 20px ;
+    background-color:#e6ddd2;
+    
+    margin: 20px 10px 20px 0px ;
  font-size: 30px;
     line-height:0px;
+    text-shadow: 2px 2px 0px black;
+    letter-spacing: 1px;
         
 }
 
 header {
-    background-color:#ee212e;
+    background-color:#e6ddd2;
     position:fixed;
     text-align:center;
      margin-left:auto;
@@ -95,29 +134,42 @@ header {
     width:100%;
     height:120px;
    top:0%;
+
        
 
     
     
 }
+
+header h1{
+       margin-bottom:0%;
+    
+}
 nav{
-    background-color:#ee212e;
-     margin-left:auto;
-    margin-right:auto;
+    background-color:#e6ddd2;
+    padding-top:0px;
+    margin-top:30px;
+  position:fixed;
+     margin-left:300px;
+   
+    
     
 }
 
+
 hr{
     display:block;
-    padding: 5px 0px 0px 0px;
+    padding: 3px 0px 0px 0px;
     background-color:black;
-    border-color:black;
+    border-bottom: 4px solid maroon;
+    margin-top:60px;
+
   
 }
 
 footer{
     height:100px;
-    background-color:#ee212e;
+    background-color:#e6ddd2;
     text-align:center;
     bottom: 0px;
     position: fixed;
@@ -129,7 +181,7 @@ footer{
 
 footer h2{
     color:smoke;
-    background-color:#ee212e;
+    background-color:#e6ddd2;
     display:inline-block;
     font-size:50px;
     margin-top:0%;
@@ -142,10 +194,14 @@ footer h2{
     
 }
 
+footer h3{
+  margin-top:0px;
+}
+
 p {
     text-transform:uppercase;
     color:black;
-    text-align:justify;
+    text-align:left;
     
     margin-bottom:0%;
     
@@ -161,23 +217,20 @@ p {
 }
 
 
-img{
-    width:600px;
-}
-.column img{
-    width:250px;
-    margin-bottom:0px;
-}
+
+
+
 
 #my-div
 {
     filter: contrast(500%) grayscale(100%) brightness(900%);
-    width    : 120px;
-    height   : 65px;
+    width    : 110px;
+    height   : 52px;
     overflow : hidden;
     position : relative;
     display:inline-block;
     margin-right:10px;
+    margin-top:10px;
     margin-bottom:-5px;
   
     
@@ -186,8 +239,8 @@ img{
 #my-iframe
 {
     position : absolute;
-    top      : -430px;
-    left     : -300px;
+    top      : -435px;
+    left     : -299px;
     width    : 1280px;
     height   : 1200px;
     
@@ -202,9 +255,15 @@ img{
     width:300px
      
 }
-
+footer h2{
+    color:maroon;
+    text-shadow: 2px 2px 0px black;
+}
 .shadow {
-    text-shadow: 1px 2px 0px red;
+    text-shadow: 2px 2px 0px black;
+     font-size: 50px;
+
+   
 }
 
 
@@ -230,51 +289,131 @@ img{
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-margin-left:15px;
+margin-left:1%;
 margin-bottom:100px;
 margin-top:150px;
+    padding-top:0px;
     
 }
+
+.columnbig {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+  flex: 1;
+margin-left:0%;
+    margin-right:0%;
+margin-bottom:100px;
+margin-top:150px;
+    padding-top:0px;
+    padding-bottom:150px;
+    width:75%;
+  
+    
+}
+
 
 .scroll {
      overflow: scroll;
      position:fixed;
      top:120px;
      bottom:100px;
-     
+     margin-left:1%;
    
     
      
    
 }
 
+img{
+    width:600px;
+}
+quad{
+    
+}
+.quad column{
+    width:25%;
+}
+
+.column img{
+    width: 150px;
+        margin-top:0%;
+    padding-top: 0%;
+    
+  
+   
+}
+.scroll img{
+    width:250px;
+    margin-bottom:0px;
+}
+
+.mainimg{
+    background-color:white;;
+    color:black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0%;
+    
+  border-top:solid 5px black;
+    border-bottom:solid 5px black;
+ 
+    
+    
+}
+
+.column .mainimg{
+    margin-top:0%;
+
+    margin-left:0%;
+    width:95%;
+    padding-bottom:2px;
+    
+}
+
+.columnbig h6{
+    width:75%;
+}
 
 @media only screen and (max-width: 1300px) {
    footer{
       height:100px;
   }
     footer h2{
+        margin-bottom:0%;
         font-size:50px;
     }
     
     .scroll{
         bottom:130px;
     }
+    
+ 
 }
+
+
 @media only screen and (max-width: 900px) {
    footer{
       height:130px;
   }
     footer h2{
-        font-size:34px;
+        margin-top:1%;
+        font-size:28px;
     }
     
     .scroll{
         bottom:130px;
     }
-    
+    h1{
+        letter-spacing:4px;
+        font-size:50px;
+        
+    }
     h3{
         font-size:10px;
+    }
+    nav{
+        margin-left:210px;
     }
     header a{
         font-size:25px;
@@ -283,12 +422,19 @@ margin-top:150px;
         width:49%
     }
     .column img{
+     
         width:160px;
     }
+    .columnbig h6{
+         width:100%;
+    }
+    
+    .column .mainimg{
+    margin-top:50%;
+    
 
 }
     
-
 
 
 
