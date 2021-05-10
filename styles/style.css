@@ -323,6 +323,8 @@ p {
 
     }
 
+
+
 .column {
     display:inline-flex;
     flex-direction: column;
@@ -355,7 +357,7 @@ p {
     display:inline-flex;
     flex-wrap:wrap;
      margin-right:10%;
-    justify-content: flex-end;
+    
    
  
     
@@ -466,7 +468,13 @@ width:50%;
    
 }
 .rewrapper h6{
+    margin-top:1%;
     width:70%;
+    margin-left:1%;
+}
+
+.rewrapper h2{
+    margin-left:1%;
 }
 .inwrapper h6 {
     width: 70%;
@@ -477,7 +485,7 @@ width:50%;
 }
 
 .abwrapper .column{
-    
+    margin-left:1%;
     display:inline-flex;
     position:relative;
     width:100%;
@@ -643,6 +651,10 @@ width:97%;
     
     .rewrapper h6{
         width:70%;
+    }
+    
+    .rewrapper h2{
+        width:70%
     }
     .rewrapper{
         margin-left:2%;
